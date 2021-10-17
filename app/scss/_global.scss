@@ -3,11 +3,13 @@ body {
 	height: 100%;
 	font-family: 'Open Sans', sans-serif;
 	background: linear-gradient(90deg, #8159C6 0%, #6C7CFF 100%);
+	
 }
 
 .wrapper {
 	display: flex;
 	flex-direction: column;
+	// overflow: hidden;
 }
 
 
