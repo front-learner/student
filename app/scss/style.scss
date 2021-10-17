@@ -72,7 +72,7 @@
 }
 
 .wrapper {
-    overflow-y: hidden;
+    overflow: hidden;
     position: relative; 
     z-index: 10;
     &::after {
@@ -270,6 +270,13 @@
 }
 
 
+@media (max-width:1250px) {
+    .wrapper::after {
+        content: none;
+    }
+}
+
+
 
 @media (max-width: 1100px) {
     .header {
@@ -413,6 +420,7 @@
 
     .wrapper {
         &::after {
+            content: '';
             bottom: -77%;
         }
     }
